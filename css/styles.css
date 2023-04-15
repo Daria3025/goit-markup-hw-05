@@ -373,13 +373,12 @@ img {
 }
 .custumer-icon {
     fill: #8E8F99;
-    padding: 54px 32px;
     box-sizing: content-box;
     transition: fill, var(--transition-style);
 }
 
-.custumer-icon:hover,
-.custumer-icon:focus {
+.customer-link:hover .custumer-icon,
+.customer-link:focus .custumer-icon {
     fill: #404BBF;
 }
 
@@ -538,8 +537,8 @@ img {
     transition: transform var(--transition-style);
 }
 
-.portfolio-text-cards-container:hover .descr-text-portfolio,
-.portfolio-text-cards-container:focus .descr-text-portfolio {
+.portfolio-link:hover .descr-text-portfolio,
+.portfolio-link:focus .descr-text-portfolio {
     transform: translate(0);
 }
 
